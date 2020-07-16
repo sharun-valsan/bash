@@ -79,3 +79,6 @@ openssl \
   -days 36500
 
 openssl x509 -in ca-cert.crt -out signed_cert/root_cert.pem -outform PEM
+echo 'Require zip to be installed and available'
+echo 'sudo apt install zip unzip'
+
